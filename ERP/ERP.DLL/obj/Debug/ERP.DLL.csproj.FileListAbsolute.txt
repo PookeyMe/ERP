@@ -1,0 +1,11 @@
+E:\MyERP\ERP\ERP.DLL\bin\Debug\ERP.DLL.dll
+E:\MyERP\ERP\ERP.DLL\bin\Debug\ERP.DLL.pdb
+E:\MyERP\ERP\ERP.DLL\bin\Debug\ERP.DAL.dll
+E:\MyERP\ERP\ERP.DLL\bin\Debug\ERP.MODEL.dll
+E:\MyERP\ERP\ERP.DLL\bin\Debug\ERP.DAL.pdb
+E:\MyERP\ERP\ERP.DLL\bin\Debug\ERP.MODEL.pdb
+E:\MyERP\ERP\ERP.DLL\obj\Debug\ERP.DLL.csprojAssemblyReference.cache
+E:\MyERP\ERP\ERP.DLL\obj\Debug\ERP.DLL.csproj.CoreCompileInputs.cache
+E:\MyERP\ERP\ERP.DLL\obj\Debug\ERP.DLL.csproj.CopyComplete
+E:\MyERP\ERP\ERP.DLL\obj\Debug\ERP.DLL.dll
+E:\MyERP\ERP\ERP.DLL\obj\Debug\ERP.DLL.pdb
