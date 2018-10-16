@@ -71,6 +71,15 @@ namespace ERP.UI.pages.common
 
                 }
                 str.Append("</div>");
+
+                str.Append("<div title='单据文件'> <div style='height: 7px;'></div>");
+                str.Append(" <ul id=\"tree8\" style=\"margin-top:3px;\">");
+                str.Append(" </ul>");
+                
+
+
+                str.Append("</div>");
+
                 str.Append("<div title='采购管理'> <div style='height: 7px;'></div>");
                 if (power.Contains("43") == true)
                 {

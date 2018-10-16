@@ -78,6 +78,10 @@ namespace ERP.UI.pages.common
             /// 自定义数据
             /// </summary>
             public object MyObject10 { get; set; }
+            /// <summary>
+            /// 自定义数据
+            /// </summary>
+            public object MyObject11 { get; set; }
         }
         #endregion
         public class chlid
@@ -549,6 +553,139 @@ namespace ERP.UI.pages.common
                     dicmod.Add(treelist);
                 }
                 act.MyObject7 = dicmod;
+            }
+            if (8 == 8)
+            {
+                List<treelist> dicmod = new List<treelist>();
+                for (int i = 0; i < 8; i++)
+                {
+                    treelist treelist = new treelist();
+                    if (i == 0)
+                    {
+                        treelist.text = "企管部";
+                    }
+                    else if (i == 1)
+                    {
+                        treelist.text = "采购部";
+                    }
+                    else if (i == 2)
+                    {
+                        treelist.text = "营销部";
+                    }
+                    else if (i == 3)
+                    {
+                        treelist.text = "计划部";
+                    }
+                    else if (i == 4)
+                    {
+                        treelist.text = "仓储部";
+                    }
+                    else if (i == 5)
+                    {
+                        treelist.text = "生产部";
+                    }
+                    else if (i == 6)
+                    {
+                        treelist.text = "人力部";
+                    }
+                    else if (i == 7)
+                    {
+                        treelist.text = "财务部";
+                    }
+
+                    treelist.isexpand = true;
+                    List<chlid> clist = new List<chlid>();
+                    if (i == 0)
+                    {
+                        if (power.Contains("68") == true)
+                        {
+                            chlid c = new chlid();
+                            c.url = "../Comod/StorageRecordsProcess.aspx?moduid=83";
+                            c.text = "表1";
+                            clist.Add(c);
+                        }
+                        if (power.Contains("36") == true)
+                        {
+                            chlid c = new chlid();
+                            c.url = "../Comod/StorageRecordsReceipt.aspx?moduid=83";
+                            c.text = "表2";
+                            clist.Add(c);
+                        }
+                    }
+                    else if (i == 1)
+                    {
+                        if (power.Contains("97") == true)
+                        {
+                            chlid c = new chlid();
+                            c.url = "../Finance/materialcomClear.aspx?moduid=83";
+                            c.text = "表1";
+                            clist.Add(c);
+                        }
+                    }
+                    else if (i == 2)
+                    {
+                        if (power.Contains("97") == true)
+                        {
+                            chlid c = new chlid();
+                            c.url = "../Finance/materialcomClear.aspx?moduid=83";
+                            c.text = "表1";
+                            clist.Add(c);
+                        }
+                    }
+                    else if (i == 3)
+                    {
+                        if (power.Contains("97") == true)
+                        {
+                            chlid c = new chlid();
+                            c.url = "../Finance/materialcomClear.aspx?moduid=83";
+                            c.text = "表1";
+                            clist.Add(c);
+                        }
+                    }
+                    else if (i == 4)
+                    {
+                        if (power.Contains("97") == true)
+                        {
+                            chlid c = new chlid();
+                            c.url = "../Finance/materialcomClear.aspx?moduid=83";
+                            c.text = "表1";
+                            clist.Add(c);
+                        }
+                    }
+                    else if (i == 5)
+                    {
+                        if (power.Contains("97") == true)
+                        {
+                            chlid c = new chlid();
+                            c.url = "../Finance/materialcomClear.aspx?moduid=83";
+                            c.text = "表1";
+                            clist.Add(c);
+                        }
+                    }
+                    else if (i == 6)
+                    {
+                        if (power.Contains("97") == true)
+                        {
+                            chlid c = new chlid();
+                            c.url = "../Finance/materialcomClear.aspx?moduid=83";
+                            c.text = "表1";
+                            clist.Add(c);
+                        }
+                    }
+                    else if (i == 7)
+                    {
+                        if (power.Contains("97") == true)
+                        {
+                            chlid c = new chlid();
+                            c.url = "/pages/caiwu/jizhang.aspx";
+                            c.text = "记账凭证";
+                            clist.Add(c);
+                        }
+                    }
+                    treelist.children = clist;
+                    dicmod.Add(treelist);
+                }
+                act.MyObject11 = dicmod;
             }
 
             Response.Write(JsonConvert.SerializeObject(act));

@@ -169,6 +169,22 @@
                             f_addTab(tabid, node.data.text, node.data.url);
                         }
                     });
+                    $("#tree8").ligerTree({
+                        data: data.MyObject11,
+                        checkbox: false,
+                        slide: false,
+                        nodeWidth: 120,
+                        attribute: ['nodename', 'url'],
+                        onSelect: function (node) {
+                            if (!node.data.url) return;
+                            var tabid = $(node.target).attr("tabid");
+                            if (!tabid) {
+                                tabid = new Date().getTime();
+                                $(node.target).attr("tabid", tabid)
+                            }
+                            f_addTab(tabid, node.data.text, node.data.url);
+                        }
+                    });
 
                 }
             });

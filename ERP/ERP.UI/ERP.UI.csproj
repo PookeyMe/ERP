@@ -1229,6 +1229,7 @@
     <Content Include="Manage\JS\MyTab.js" />
     <Content Include="Manage\listproduct.aspx" />
     <Content Include="Manage\UserIndex.aspx" />
+    <Content Include="pages\caiwu\jizhang.aspx" />
     <Content Include="pages\common\FirstPage.aspx" />
     <Content Include="pages\common\index.aspx" />
     <Content Include="pages\common\IndexData.aspx" />
@@ -1539,6 +1540,13 @@
       <DependentUpon>UserIndex.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="pages\caiwu\jizhang.aspx.cs">
+      <DependentUpon>jizhang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\caiwu\jizhang.aspx.designer.cs">
+      <DependentUpon>jizhang.aspx</DependentUpon>
+    </Compile>
     <Compile Include="pages\common\FirstPage.aspx.cs">
       <DependentUpon>FirstPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1590,6 +1598,13 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
+    <Folder Include="pages\caigou\" />
+    <Folder Include="pages\cangchu\" />
+    <Folder Include="pages\jihua\" />
+    <Folder Include="pages\qiguan\" />
+    <Folder Include="pages\renli\" />
+    <Folder Include="pages\shengchan\" />
+    <Folder Include="pages\yingxiao\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
