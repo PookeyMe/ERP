@@ -10,7 +10,7 @@
                 <div class="detail-head">
                     <div class="pull-left">
                         <a class="pull-left" href="#">
-                            <img src="img/touxiang.png" alt="" class="img-responsive">
+                            <img src="img/touxiang.png" alt="" class="img-responsive" />
                         </a>
                     </div>
                     <div class="head-info">
