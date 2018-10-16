@@ -1,6 +1,0 @@
-E:\MyERP\ERP\ERP.MODEL\bin\Debug\ERP.MODEL.dll
-E:\MyERP\ERP\ERP.MODEL\bin\Debug\ERP.MODEL.pdb
-E:\MyERP\ERP\ERP.MODEL\obj\Debug\ERP.MODEL.csprojAssemblyReference.cache
-E:\MyERP\ERP\ERP.MODEL\obj\Debug\ERP.MODEL.csproj.CoreCompileInputs.cache
-E:\MyERP\ERP\ERP.MODEL\obj\Debug\ERP.MODEL.dll
-E:\MyERP\ERP\ERP.MODEL\obj\Debug\ERP.MODEL.pdb
