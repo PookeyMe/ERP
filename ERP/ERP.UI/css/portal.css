@@ -1,0 +1,1898 @@
+﻿body
+{
+    font: 宋体;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    cursor: default;
+}
+#menu
+{
+    height: 27px;
+    clear: right;
+    padding: 3px 0 0 5px;
+    z-index: 10;
+}
+#banner
+{
+    height: 52px;
+    color: White;
+    background: url(Image/Portal/ufida_X.png) repeat-x 0 -37px;
+    z-index: 10;
+}
+#banner .banner-bg
+{
+    background-image: url(Image/Portal/banner.png);
+    height: 100%;
+    width: 100%;
+}
+#logo
+{
+    float: left;
+    margin: 7px 0 0 3px;
+    width: 170px;
+    height: 39px;
+}
+#operation
+{
+    float: right;
+    height: 22px;
+    width: 600px;
+}
+#operation ul.operation
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 2px 0 0 0;
+    float: right;
+}
+#operation ul.operation li
+{
+    float: left;
+    margin-right: 5px;
+    line-height: 18px;
+}
+#operation .img-bg
+{
+    padding-left: 18px;
+}
+#operation a
+{
+    color: White;
+    text-decoration: none;
+}
+#operation a:hover
+{
+    text-decoration: underline;
+}
+#operation .p_exchange
+{
+    background: url(Image/Portal/ufida.png) no-repeat -2px -1px;
+}
+#operation .p_logout
+{
+    background: url(Image/Portal/ufida.png) no-repeat -2px -25px;
+}
+#operation .p_message
+{
+    background: url(Image/Portal/message.gif) no-repeat;
+}
+#operation .p_setting
+{
+    background: url(Image/Portal/ufida.png) no-repeat -2px -51px;
+}
+#operation .p_help
+{
+    background: url(Image/Portal/ufida.png) no-repeat -4px -82px;
+}
+#operation .img-link
+{
+    width: 15px;
+    height: 16px;
+    display: block;
+    background: url(Image/Portal/ufida.png) no-repeat -6px -109px;
+}
+#operation .img-link:hover
+{
+    background: url(Image/Portal/ufida.png) no-repeat -6px -139px;
+}
+#more-help
+{
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    width: 68px;
+    list-style: none;
+    text-align: center;
+    float: none;
+    background-color: #eaf3fb;
+    border: solid 1px #5a91c8;
+    color: #000;
+    display: none;
+    z-index: 10;
+}
+#more-help li
+{
+    margin: 2px;
+    line-height: 20px;
+    width: 100%;
+}
+#more-help li.hover
+{
+    line-height: 18px;
+    width: 100%;
+    background-color: #f3f3f3;
+    border: solid 1px #5a91c8;
+}
+.menu-bg
+{
+    font: 宋体;
+    white-space: nowrap;
+    background-color: Transparent;
+    z-index: 10;
+}
+.menu-bg a
+{
+    text-decoration: none;
+    line-height: 27px;
+    height: 27px;
+    display: block;
+}
+.menu-nav
+{
+    height: 27px;
+    line-height: 27px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.menu-nav li
+{
+    position: relative;
+    clear: none;
+    vertical-align: middle;
+    text-align: center;
+    list-style-type: none;
+    float: left;
+    left: 0;
+    width: 72px;
+    z-index: 10;
+}
+.menu-nav li.hover
+{
+    background: url(Image/Portal/ufida.png) no-repeat -10px -763px;
+}
+.menu-text
+{
+    color: White;
+}
+.menuIframe
+{
+    display: block;
+    position: absolute;
+    height: 108%;
+    width: 158px;
+    left: -1px;
+    top: -1px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0);
+}
+.menu-item
+{
+    padding: 0 8px 0 8px;
+}
+.menu-con-lvl
+{
+    height: 100%;
+    position: absolute;
+    text-align: left;
+    top: 25px;
+    background-color: #deebf7;
+    border: 1px solid #70a6d4;
+    display: none;
+    z-index: 10;
+    top: 0;
+}
+.left-menu-con-lvl
+{
+    left: 154px;
+}
+.right-menu-con-lvl
+{
+    right: 154px;
+}
+.menu-slide
+{
+    height: 100%;
+    position: absolute;
+    text-align: left;
+    top: 25px;
+    background-color: #deebf7;
+    border: 1px solid #70a6d4;
+    display: none;
+    z-index: 10;
+}
+.left-menu-slide
+{
+    left: 0;
+}
+.right-menu-slide
+{
+    right: 0;
+}
+.menu-slide span
+{
+    display: block;
+}
+.menu-slide ul
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.menu-slide ul li
+{
+    width: 100%;
+    padding: 0 5px 0 5px;
+    display: block;
+    overflow: visible;
+    line-height: 24px;
+    border: 1px solid #deebf7;
+}
+.menu-slide ul li.hover
+{
+    background: url(Image/Portal/ufida_X.png) repeat-x 0 -140px;
+    border: 1px solid #8cb5dc;
+}
+.menu-slide ul li.hover span.hasChild
+{
+    background: url(Image/Portal/ufida.png) no-repeat right -929px;
+}
+.menu-slide .hasChild
+{
+    background: url(Image/Portal/ufida.png) no-repeat right -902px;
+}
+.menu-slide .menu-text
+{
+    width: 143px;
+    color: Black;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.menu-slide .line
+{
+    border-top: 1px solid #d2d2d2;
+}
+.level2
+{
+    overflow: auto;
+    text-align: left;
+}
+.level2 li
+{
+    width: 100%;
+}
+#often-use
+{
+    height: 25px;
+    padding-left: 8px;
+    background: url(Image/Portal/often-bar-middle.PNG) repeat;
+    white-space: nowrap;
+}
+#often-use a
+{
+    color: #013573;
+    text-decoration: none;
+}
+#often-use a:hover
+{
+    text-decoration: underline;
+}
+#often-use .setting
+{
+    height: 25px;
+    width: 25px;
+    background: url(Image/Portal/ufida.png) no-repeat -2px -169px;
+    cursor: pointer;
+}
+#often-use ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#often-use li
+{
+    float: left;
+    padding-right: 12px;
+    line-height: 25px;
+}
+#often-use li.point-img
+{
+    padding-left: 10px;
+    background: url(Image/Portal/ufida.png) no-repeat -10px -196px;
+}
+#often-use .collapseBtn
+{
+    float: right;
+    height: 25px;
+    width: 16px;
+    background: url(Image/Portal/ufida.png) no-repeat -11px -278px;
+}
+#often-use .collapseBtn:hover
+{
+    background: url(Image/Portal/ufida.png) no-repeat -11px -310px;
+}
+#often-use .collapseBtnDown
+{
+    float: right;
+    height: 25px;
+    width: 16px;
+    background: url(Image/Portal/ufida.png) no-repeat -10px -225px;
+}
+#often-use .collapseBtnDown:hover
+{
+    background: url(Image/Portal/ufida.png) no-repeat -10px -253px;
+}
+#tabs
+{
+    height: 25px;
+    width: 100%;
+    line-height: 25px;
+    background: url(Image/Portal/yeqian-bg.gif) repeat;
+    white-space: nowrap;
+}
+#tabs ul
+{
+    list-style-type: none;
+    margin: 3px 0 -1px 0;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 0 0 10px;
+    float: left;
+    position: relative;
+}
+#tabs ul li
+{
+    float: left;
+    margin-right: 1px;
+    padding: 0 5px 0 5px;
+    cursor: pointer;
+}
+#tabs li.selected
+{
+    cursor: default;
+    background: url(Image/Portal/ufida.png) no-repeat -13px -965px;
+    padding: 0 0 0 5px;
+}
+#tabs li a
+{
+    text-decoration: none;
+    padding: 0 5px 0 5px;
+    display: block;
+}
+#tabs li.selected a
+{
+    text-decoration: none;
+    padding: 0 5px 0 0;
+    display: block;
+    background: url(Image/Portal/ufida.png) no-repeat right -1003px;
+}
+#tabs li a span
+{
+    display: block;
+    padding: 0;
+    color: #00295d;
+}
+#tabs li.selected a span
+{
+    display: block;
+    background: url(Image/Portal/ufida_X.png) repeat-x 0 -168px;
+    padding: 0 2px 0 2px;
+    color: #000;
+}
+#tabs li a span em
+{
+    padding: 0;
+    line-height: 22px;
+    float: left;
+    position: absolute;
+    display: none;
+}
+#tabs li.selected a span em
+{
+    width: 13px;
+    height: 22px;
+    background: url(Image/Portal/ufida.png) no-repeat -19px -605px;
+    cursor: pointer;
+    display: block;
+}
+#tabs li.selected a span span
+{
+    padding-left: 15px;
+}
+#tabs li.selected a span span.NClose
+{
+    padding: 0 2px 0 2px;
+}
+#tabs li.selected a span em.close
+{
+    background-position: -21px -643px;
+}
+#main-content
+{
+    width: 100%;
+    background-color: Gray;
+    position: relative;
+    z-index: 0;
+}
+#main-content iframe
+{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: block;
+}
+#history iframe
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0);
+}
+.ShowHistory
+{
+    width: 180px;
+    height: 275px;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    z-index: 8888;
+}
+.histroyShowControl
+{
+    width: 100%;
+    height: 100%;
+}
+.HiddenHistory
+{
+    width: 24px;
+    height: 72px;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    z-index: 8888;
+}
+.historyhiddentop
+{
+    width: 10px;
+    height: 47px;
+    background: url(Image/Portal/ufida.png) no-repeat -21px -680px;
+}
+.historyhiddenbottom
+{
+    width: 24px;
+    height: 26px;
+    background: url(Image/Portal/ufida.png) no-repeat -21px -727px;
+}
+.his_table
+{
+    width: 100%;
+    height: 275px;
+    table-layout: fixed;
+    text-align: left;
+    border: 0;
+}
+.his_table ul
+{
+    list-style: none;
+}
+.his_table li
+{
+    font-family: 宋体;
+    font-size: 12px;
+    line-height: 22px;
+    cursor: pointer;
+    margin-left: -25px;
+}
+.his_table em
+{
+    width: 9px;
+    height: 9px;
+    background: url('Image/Portal/ufida.png') no-repeat -17px -576px;
+    display: block;
+    float: left;
+    position: relative;
+    top: 7px;
+}
+.his_table li span
+{
+    padding-left: 10px;
+}
+.his_table li.hover
+{
+    color: #ff6c00;
+    text-decoration: underline;
+}
+.his_top
+{
+    width: 100%;
+    height: 25px;
+}
+.his_top_left
+{
+    width: 7px;
+    background: url(Image/Portal/history/his.png) no-repeat 0 0;
+}
+.his_top_center
+{
+    color: #fff;
+    font-size: 13px;
+    background: url(Image/Portal/history/his_X.png) repeat-x;
+}
+.his_top_right
+{
+    width: 7px;
+    background: url(Image/Portal/history/his.png) no-repeat 0 -52px;
+}
+.his_middle
+{
+    width: 100%;
+    height: 100%;
+}
+.his_middle_left
+{
+    width: 7px;
+    background: url(Image/Portal/history/his_Y.png) repeat-y;
+}
+.his_middle_center
+{
+    background-color: #fff;
+    vertical-align: top;
+}
+.his_middle_center div.#history_content
+{
+    position: relative;
+    top: 8px;
+}
+.his_middle_right
+{
+    width: 7px;
+    background: url(Image/Portal/history/his_Y.png) repeat-y -8px 0;
+}
+.his_bottom
+{
+    width: 100%;
+    height: 7px;
+}
+.his_bottom_left
+{
+    width: 7px;
+    background: url(Image/Portal/history/his.png) no-repeat 0 -182px;
+}
+.his_bottom_center
+{
+    background: url(Image/Portal/history/his_X.png) repeat-x 0 -26px;
+}
+.his_bottom_right
+{
+    width: 7px;
+    background: url(Image/Portal/history/his.png) no-repeat -17px -182px;
+}
+#helper
+{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+#helper_dc
+{
+    width: 108px;
+    height: 116px;
+    background: url(Image/Portal/helper/helper.png) no-repeat -108px -374px;
+    cursor: pointer;
+    display: none;
+}
+#helper_dc em.MsgAir
+{
+    display: none;
+    width: 150px;
+    height: 80px;
+    background: url(Image/Portal/helper/helper.png) no-repeat -5px -495px;
+    position: absolute;
+    right: 80px;
+    bottom: 100px;
+}
+#helper_dc em.MsgAir em
+{
+    display: block;
+    width: 80px;
+    position: relative;
+    top: 18px;
+    left: 30px;
+    font-style: normal;
+    text-align: right;
+    color: #673202;
+    cursor: default;
+}
+#helper_dc em.DC
+{
+    display: none;
+    width: 16px;
+    height: 16px;
+    background: url(Image/Portal/helper/helper.png) no-repeat -237px -383px;
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+}
+#helper_panel
+{
+    width: 292px;
+    height: 367px;
+    background: url(Image/Portal/helper/helper.png) no-repeat 0 0;
+    display: none;
+}
+.helper_panel_ul
+{
+    width: 215px;
+    height: 275px;
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.helper_panel_ul li
+{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+}
+.helper_panel_ul li span
+{
+    cursor: pointer;
+    padding-left: 10px;
+}
+.helper_panel_ul li.helper_panelC
+{
+    top: 2px;
+}
+.helper_panel_ul li.helper_panelC em
+{
+    width: 16px;
+    height: 16px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 2px;
+}
+.helper_panel_ul li.helper_search
+{
+    top: 28px;
+    height: 25px;
+}
+.helper_panel_ul li.helper_search input
+{
+    border: none;
+    width: 150px;
+    height: 21px;
+    font-family: 宋体;
+    font-size: 12px;
+    line-height: 20px;
+    visibility: visible;
+    position: relative;
+    float: left;
+    left: 4px;
+    top: 1px;
+}
+.helper_panel_ul li.helper_search em
+{
+    width: 37px;
+    height: 25px;
+    display: block;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    right: 11px;
+}
+.helper_panel_ul li.helper_help_title
+{
+    top: 76px;
+    height: 23px;
+    line-height: 23px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.helper_panel_ul li.helper_help_title span
+{
+    color: #673202;
+    cursor: default;
+    padding-left: 0;
+}
+.helper_panel_ul li.helper_ehelp
+{
+    top: 115px;
+}
+.helper_panel_ul li.helper_ehelp em
+{
+    width: 16px;
+    height: 16px;
+    background: url(Image/Portal/helper/helper.png) no-repeat -238px -406px;
+    display: block;
+    float: left;
+}
+.helper_panel_ul li.helper_evideo
+{
+    top: 145px;
+}
+.helper_panel_ul li.helper_evideo em
+{
+    width: 16px;
+    height: 16px;
+    background: url(Image/Portal/helper/helper.png) no-repeat -239px -498px;
+    display: block;
+    float: left;
+}
+.helper_panel_ul li.helper_e_knowledge
+{
+    top: 185px;
+}
+.helper_panel_ul li.helper_e_knowledge em
+{
+    width: 16px;
+    height: 16px;
+    background: url(Image/Portal/helper/helper.png) no-repeat -238px -424px;
+    display: block;
+    float: left;
+}
+.helper_panel_ul li.helper_e_uu
+{
+    top: 215px;
+}
+.helper_panel_ul li.helper_e_uu em
+{
+    width: 16px;
+    height: 16px;
+    background: url(Image/Portal/helper/helper.png) no-repeat -238px -446px;
+    display: block;
+    float: left;
+}
+.helper_panel_ul li.helper_e_serivce
+{
+    top: 245px;
+}
+.helper_panel_ul li.helper_e_serivce em
+{
+    width: 16px;
+    height: 16px;
+    background: url(Image/Portal/helper/helper.png) no-repeat -238px -471px;
+    display: block;
+    float: left;
+}
+#helper_panel div.helper_item_panel
+{
+    width: 153px;
+    height: 180px;
+    border: solid 1px #b1b1b1;
+    background-color: #fff;
+    position: absolute;
+    top: 135px;
+    left: 56px;
+    display: none;
+}
+#helper_panel div.helper_item_panel ul
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#helper_panel div.helper_item_panel ul li
+{
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    margin: 1px 0 1px 0;
+    text-indent: 3px;
+}
+#helper_panel div.helper_item_panel ul li.selected
+{
+    background-color: #75aadb;
+}
+.helper-help
+{
+    width: 16px;
+    height: 16px;
+    background: url(Image/Portal/helper/helper-help.png) no-repeat;
+}
+.helper-search
+{
+    width: 16px;
+    height: 16px;
+    background: url(Image/Portal/helper/helper-search.png) no-repeat;
+}
+.helper-uu
+{
+    width: 16px;
+    height: 16px;
+    background: url(Image/Portal/helper/helper-uu.png) no-repeat;
+}
+.helper-uucall
+{
+    width: 16px;
+    height: 16px;
+    background: url(Image/Portal/helper/helper-uucall.png) no-repeat;
+}
+.helper-video
+{
+    width: 16px;
+    height: 16px;
+    background: url(Image/Portal/helper/helper-video.png) no-repeat;
+}
+.portal_body
+{
+    font-family: 宋体;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    filter: progid:DXImageTransform.microsoft.gradient(gradienttype=0,startColorStr=#e6f1fb,endColorStr=#4189cc);
+    background: -webkit-gradient(linear,0% 0,0% 100%,from(#e6f1fb),to(#4189cc));
+    text-align: center;
+}
+.MainMapModule
+{
+    margin: auto;
+    width: 990px;
+    height: 525px;
+    text-align: center;
+}
+.MapModuleLeft
+{
+    width: 740px;
+    height: 100%;
+    float: left;
+}
+.MapModuleLeft > iframe
+{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-color: Transparent;
+    border: 0;
+    border-style: none;
+}
+.webpart_content_Map
+{
+    height: 469px;
+    border: solid 1px #b1b1b1;
+    margin-top: -1px;
+    background-color: #fff;
+}
+.webpart_content_Map iframe
+{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.div_diagrame
+{
+    width: 666px;
+    height: 468px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.div_diagrame > em
+{
+    position: absolute;
+    width: 60px;
+    display: block;
+    text-align: center;
+    font-style: normal;
+    cursor: pointer;
+}
+.div_diagrame em > div
+{
+    width: 100%;
+    height: 44px;
+    display: block;
+}
+.div_diagrame em > span
+{
+    font-family: 宋体;
+    font-size: 12px;
+}
+.map_help
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.map_help tr
+{
+    height: 36px;
+}
+.map_help_left
+{
+    width: 10px;
+    background: url(Image/Portal/ufida.png) no-repeat -11px -802px;
+}
+.map_help_middle
+{
+    background: url(Image/Portal/ufida_X.png) repeat-x;
+}
+.map_help_right
+{
+    width: 10px;
+    background: url(Image/Portal/ufida.png) no-repeat -16px -846px;
+}
+.map_help_middle em.map_h
+{
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: url(Image/Portal/ufida.png) no-repeat -4px -83px;
+    float: left;
+}
+.map_help_middle > span
+{
+    margin-left: 5px;
+}
+.tipWinTop
+{
+    width: 133px;
+    height: 62px;
+    display: block;
+    background: url(Image/Portal/tipWinTop.png) no-repeat;
+    position: absolute;
+    left: 20px;
+    top: 90px;
+}
+.tipWinTop > div
+{
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+}
+.tipWinTop > div > div
+{
+    line-height: 18px;
+}
+.tipWinTop > div > div:hover span
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.tipWinTop > div > div span
+{
+    float: left;
+    color: #fff;
+}
+.tipWinTop > div > div em
+{
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: url(Image/Portal/ufida.png) no-repeat -4px -83px;
+    float: right;
+    margin: 2px 25px auto auto;
+}
+.tipWinBottom
+{
+    width: 133px;
+    height: 62px;
+    display: block;
+    background: url(Image/Portal/tipWinBottom.png) no-repeat;
+    position: absolute;
+    left: 20px;
+    bottom: 90px;
+}
+.tipWinBottom > div
+{
+    position: relative;
+    top: 5px;
+    margin-left: 10px;
+}
+.tipWinBottom > div > div
+{
+    line-height: 18px;
+}
+.tipWinBottom > div > div:hover span
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.tipWinBottom > div > div span
+{
+    float: left;
+    color: #fff;
+}
+.tipWinBottom > div > div em.help
+{
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: url(Image/Portal/ufida.png) no-repeat -4px -83px;
+    float: right;
+    margin: 2px 25px auto auto;
+}
+.MapModuleRight
+{
+    width: 250px;
+    height: 100%;
+    float: right;
+}
+.webpartM
+{
+    width: 100%;
+    border: 0;
+    margin-top: 10px;
+}
+.webpartM_Map
+{
+    width: 100%;
+    border: 0;
+    margin-top: 10px;
+}
+.webparttitle
+{
+    width: 100%;
+    height: 24px;
+}
+.webparttitle_left
+{
+    width: 10px;
+    height: 24px;
+    background: url(Image/Portal/ufida.png) no-repeat -11px -350px;
+    display: block;
+}
+.webparttitle_middle
+{
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    background: url(Image/Portal/webpart-title-middle.gif) repeat-x;
+    text-align: left;
+    font-weight: bold;
+    color: #0a3d6b;
+    cursor: default;
+}
+.webparttitle_middle span
+{
+    float: left;
+}
+.webparttitle_middle em
+{
+    width: 16px;
+    height: 16px;
+    background: url(Image/Portal/ufida.png) no-repeat -4px -83px;
+    display: block;
+    float: right;
+    cursor: pointer;
+    margin-top: 4px;
+}
+.webparttitle_right
+{
+    width: 10px;
+    height: 24px;
+    background: url(Image/Portal/ufida.png) no-repeat -12px -390px;
+    display: block;
+}
+.webpart_content1
+{
+    height: 270px;
+    background-color: #e4efff;
+    border: solid 1px #b1b1b1;
+    margin-top: -1px;
+    color: #294c7e;
+}
+.chanjetServiceNo
+{
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 微软雅黑;
+}
+.csn_title
+{
+    color: #4c4c4c;
+    font-weight: bold;
+    font-size: 13px;
+}
+.csn_no
+{
+    color: #ff8e09;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.hslight
+{
+    width: 180px;
+    text-align: center;
+    margin: 6px auto auto auto;
+}
+.hslight tr
+{
+    height: 50px;
+}
+.hslight_left
+{
+    width: 9px;
+    background: url(Image/Portal/ufida.png) no-repeat -45px -812px;
+}
+.hslight_middle
+{
+    background: url(Image/Portal/ufida_X.png) repeat-x 0 -89px;
+    line-height: 35px;
+    text-align: left;
+}
+.hslight_right
+{
+    width: 9px;
+    background: url(Image/Portal/ufida.png) no-repeat -73px -812px;
+}
+.hslight_middle em
+{
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin-left: 3px;
+    float: left;
+}
+.hslight_middle span
+{
+    padding-left: 10px;
+}
+.hslight:hover
+{
+    cursor: pointer;
+}
+.hslight em.lianxi
+{
+    background: url(Image/Portal/ufida.png) no-repeat -4px -430px;
+}
+.hslight:hover em.lianxi
+{
+    background-position: -5px -432px;
+}
+.hslight em.service
+{
+    background: url(Image/Portal/ufida.png) no-repeat -7px -524px;
+}
+.hslight:hover em.service
+{
+    background-position: -8px -526px;
+}
+.hslight em.addinstore
+{
+    background: url(Image/Portal/ufida.png) no-repeat -45px -524px;
+}
+.hslight:hover em.addinstore
+{
+    background-position: -46px -526px;
+}
+.hslight em.study-center
+{
+    background: url(Image/Portal/ufida.png) no-repeat -5px -478px;
+}
+.hslight:hover em.study-center
+{
+    background-position: -6px -480px;
+}
+.webpart_content2
+{
+    height: 135px;
+    background-color: #e4efff;
+    border: solid 1px #b1b1b1;
+    margin-top: -1px;
+    color: #294c7e;
+}
+.webpart_content2 div
+{
+    text-align: left;
+    line-height: 22px;
+    margin: 10px auto auto 20px;
+    cursor: pointer;
+    color: #294c7e;
+}
+.webpart_content2 div em
+{
+    display: block;
+    width: 9px;
+    height: 9px;
+    background: url(Image/Portal/ufida.png) no-repeat -16px -576px;
+    position: relative;
+    float: left;
+    top: 8px;
+}
+.webpart_content2 div > span
+{
+    margin-left: 7px;
+}
+.webpart_content2 div > span span
+{
+    font-weight: bold;
+}
+.webpart_content2 div:hover > span
+{
+    text-decoration: underline;
+}
+.webpart_content3
+{
+    height: 32px;
+    background-color: #e4efff;
+    border: solid 1px #b1b1b1;
+    margin-top: -1px;
+    color: #294c7e;
+}
+.webpart_content3 ul
+{
+    margin: 0;
+    padding: 0;
+}
+.webpart_content3 li
+{
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+}
+.webpart_content3 li span
+{
+    font-weight: bold;
+    display: block;
+    margin-top: 12px;
+}
+.webpart_content3 em.android
+{
+    width: 32px;
+    height: 32px;
+    display: block;
+    float: left;
+    background: url(Image/Portal/ufida.png) no-repeat -3px -1120px;
+    cursor: pointer;
+}
+.webpart_content3 em.iphone
+{
+    width: 32px;
+    height: 32px;
+    display: block;
+    float: left;
+    background: url(Image/Portal/ufida.png) no-repeat -3px -1162px;
+    cursor: pointer;
+}
+.webpart_content3 li span.android
+{
+    cursor: pointer;
+}
+.webpart_content3 li span.iphone
+{
+    cursor: pointer;
+}
+.mainportal_body
+{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 525px;
+}
+.DiagrameDiv
+{
+    width: 100%;
+    height: 100%;
+    background: url(Image/Portal/DiagramImages/YYTPro/YYTIndexPG2.png) no-repeat -138px -113px;
+}
+.DiagrameDiv div
+{
+    width: 79px;
+    height: 79px;
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+}
+.DiagrameDiv div:hover
+{
+    background: url(Image/Portal/DiagramImages/YYTPro/YYTIndexPG-hover.png) no-repeat;
+}
+.DiagrameDiv div em
+{
+    width: 79px;
+    height: 55px;
+    display: block;
+}
+.DiagrameDiv div.SCGL
+{
+    top: 80px;
+    left: 427px;
+}
+.DiagrameDiv div.CGGL
+{
+    top: 165px;
+    left: 169px;
+}
+.DiagrameDiv div.KCGL
+{
+    top: 165px;
+    left: 427px;
+}
+.DiagrameDiv div.XSGL
+{
+    top: 76px;
+    left: 672px;
+}
+.DiagrameDiv div.YFGL
+{
+    top: 275px;
+    left: 167px;
+}
+.DiagrameDiv div.CWZZGL
+{
+    top: 275px;
+    left: 427px;
+}
+.DiagrameDiv div.YSGL
+{
+    top: 360px;
+    left: 672px;
+}
+.DiagrameDiv div.XJYYGL
+{
+    top: 362px;
+    left: 427px;
+}
+.DiagrameDiv div.FXGL
+{
+    top: 162px;
+    left: 672px;
+}
+.DiagrameDiv div.LSGL
+{
+    top: 277px;
+    left: 672px;
+}
+.DiagrameDiv > em
+{
+    cursor: pointer;
+    height: 26px;
+    line-height: 26px;
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    font-style: normal;
+    text-align: center;
+    font-family: 微软雅黑;
+    font-size: 15px;
+}
+.DiagrameDiv > a
+{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background: url("Image/Portal/ufida.png") no-repeat -4px -83px;
+    width: 16px;
+    height: 16px;
+}
+.XTGL
+{
+    left: 373px;
+    top: 20px;
+    width: 120px;
+    color: #fff;
+    font-weight: bolder;
+}
+.JCSZ
+{
+    left: 540px;
+    top: 20px;
+    width: 120px;
+    color: #fff;
+    font-weight: bolder;
+}
+.CSHDH
+{
+    left: 120px;
+    top: 52px;
+    color: #da9500;
+    font-weight: bolder;
+}
+.T_UFO
+{
+    left: 200px;
+    top: 458px;
+    width: 120px;
+    color: #fff;
+    font-weight: bolder;
+}
+.BBZX
+{
+    left: 460px;
+    top: 458px;
+    width: 120px;
+    color: #fff;
+    font-weight: bolder;
+}
+.div_diagrame.busi_merger
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/merger/portal0.gif) no-repeat;
+}
+.div_diagrame.busi_merger_separate
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/merger_separate/portal0.gif) no-repeat;
+}
+.div_diagrame.busi_merger_separate_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/merger_separate/portal1.gif) no-repeat;
+}
+.div_diagrame.busi_merger_separate_Help_Lib_Sale
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/merger_separate/portal2.gif) no-repeat;
+}
+.div_diagrame.busi_merger_separate_Help_Sale_Lib
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/merger_separate/portal3.gif) no-repeat;
+}
+.div_diagrame.busi_sainvoice_stinvoice
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/sainvoice_stinvoice/portal0.gif) no-repeat;
+}
+.div_diagrame.busi_sainvoice_stinvoice_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/sainvoice_stinvoice/portal1.gif) no-repeat;
+}
+.div_diagrame.busi_sainvoice_stinvoice_HELP_STO_PUR
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/sainvoice_stinvoice/portal2.gif) no-repeat;
+}
+.div_diagrame.busi_sainvoice_stinvoice_HELP_PUR_STO
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/sainvoice_stinvoice/portal3.gif) no-repeat;
+}
+.div_diagrame.busi_sainvoice_stinvoice_HELP_LIB_SALE
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/sainvoice_stinvoice/portal4.gif) no-repeat;
+}
+.div_diagrame.busi_sainvoice_stinvoice_HELP_SALE_LIB
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/sainvoice_stinvoice/portal5.gif) no-repeat;
+}
+.div_diagrame.busi_samerger_stinvoice
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/samerger_stinvoice/portal0.gif) no-repeat;
+}
+.div_diagrame.busi_samerger_stinvoice_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/samerger_stinvoice/portal1.gif) no-repeat;
+}
+.div_diagrame.busi_samerger_stinvoice_HELP_STO_PUR
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/samerger_stinvoice/portal2.gif) no-repeat;
+}
+.div_diagrame.busi_samerger_stinvoice_HELP_PUR_STO
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/samerger_stinvoice/portal3.gif) no-repeat;
+}
+.div_diagrame.busi_saseparate_stinvoice
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/saseparate_stinvoice/portal0.gif) no-repeat;
+}
+.div_diagrame.busi_saseparate_stinvoice_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/saseparate_stinvoice/portal1.gif) no-repeat;
+}
+.div_diagrame.busi_saseparate_stinvoice_HELP_STO_PUR
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/saseparate_stinvoice/portal2.gif) no-repeat;
+}
+.div_diagrame.busi_saseparate_stinvoice_HELP_PUR_STO
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/saseparate_stinvoice/portal3.gif) no-repeat;
+}
+.div_diagrame.busi_saseparate_stinvoice_HELP_LIB_SALE
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/saseparate_stinvoice/portal4.gif) no-repeat;
+}
+.div_diagrame.busi_saseparate_stinvoice_HELP_SALE_LIB
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/saseparate_stinvoice/portal5.gif) no-repeat;
+}
+.div_diagrame.busi_separate
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/separate/portal0.gif) no-repeat;
+}
+.div_diagrame.busi_separate_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/separate/portal1.gif) no-repeat;
+}
+.div_diagrame.busi_separate_HELP_STO_PUR
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/separate/portal2.gif) no-repeat;
+}
+.div_diagrame.busi_separate_HELP_PUR_STO
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/separate/portal3.gif) no-repeat;
+}
+.div_diagrame.busi_separate_HELP_LIB_SALE
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/separate/portal4.gif) no-repeat;
+}
+.div_diagrame.busi_separate_HELP_SALE_LIB
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/separate/portal5.gif) no-repeat;
+}
+.div_diagrame.busi_separate_merger
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/separate_merger/portal0.gif) no-repeat;
+}
+.div_diagrame.busi_separate_merger_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/separate_merger/portal1.gif) no-repeat;
+}
+.div_diagrame.busi_separate_merger_HELP_STO_PUR
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/separate_merger/portal2.gif) no-repeat;
+}
+.div_diagrame.busi_separate_merger_HELP_PUR_STO
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/separate_merger/portal3.gif) no-repeat;
+}
+.div_diagrame.busi_stmerger_sainvoice
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/stmerger_sainvoice/portal0.gif) no-repeat;
+}
+.div_diagrame.busi_stmerger_sainvoice_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/stmerger_sainvoice/portal1.gif) no-repeat;
+}
+.div_diagrame.busi_stmerger_sainvoice_Help_Lib_Sale
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/stmerger_sainvoice/portal2.gif) no-repeat;
+}
+.div_diagrame.busi_stmerger_sainvoice_Help_Sale_Lib
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/stmerger_sainvoice/portal3.gif) no-repeat;
+}
+.div_diagrame.busi_stseparate_sainvoice
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/stseparate_sainvoice/portal0.gif) no-repeat;
+}
+.div_diagrame.busi_stseparate_sainvoice_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/stseparate_sainvoice/portal1.gif) no-repeat;
+}
+.div_diagrame.busi_stseparate_sainvoice_HELP_STO_PUR
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/stseparate_sainvoice/portal2.gif) no-repeat;
+}
+.div_diagrame.busi_stseparate_sainvoice_HELP_PUR_STO
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/stseparate_sainvoice/portal3.gif) no-repeat;
+}
+.div_diagrame.busi_stseparate_sainvoice_HELP_LIB_SALE
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/stseparate_sainvoice/portal4.gif) no-repeat;
+}
+.div_diagrame.busi_stseparate_sainvoice_HELP_SALE_LIB
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Business/stseparate_sainvoice/portal5.gif) no-repeat;
+}
+.div_diagrame.indu_merger
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/merger/portal0.gif) no-repeat;
+}
+.div_diagrame.indu_merger_separate
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/merger_separate/portal0.gif) no-repeat;
+}
+.div_diagrame.indu_merger_separate_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/merger_separate/portal1.gif) no-repeat;
+}
+.div_diagrame.indu_merger_separate_Help_Lib_Sale
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/merger_separate/portal2.gif) no-repeat;
+}
+.div_diagrame.indu_merger_separate_Help_Sale_Lib
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/merger_separate/portal3.gif) no-repeat;
+}
+.div_diagrame.indu_sainvoice_stinvoice
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/sainvoice_stinvoice/portal0.gif) no-repeat;
+}
+.div_diagrame.indu_sainvoice_stinvoice_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/sainvoice_stinvoice/portal1.gif) no-repeat;
+}
+.div_diagrame.indu_sainvoice_stinvoice_HELP_STO_PUR
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/sainvoice_stinvoice/portal2.gif) no-repeat;
+}
+.div_diagrame.indu_sainvoice_stinvoice_HELP_PUR_STO
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/sainvoice_stinvoice/portal3.gif) no-repeat;
+}
+.div_diagrame.indu_sainvoice_stinvoice_HELP_LIB_SALE
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/sainvoice_stinvoice/portal4.gif) no-repeat;
+}
+.div_diagrame.indu_sainvoice_stinvoice_HELP_SALE_LIB
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/sainvoice_stinvoice/portal5.gif) no-repeat;
+}
+.div_diagrame.indu_samerger_stinvoice
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/samerger_stinvoice/portal0.gif) no-repeat;
+}
+.div_diagrame.indu_samerger_stinvoice_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/samerger_stinvoice/portal1.gif) no-repeat;
+}
+.div_diagrame.indu_samerger_stinvoice_HELP_STO_PUR
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/samerger_stinvoice/portal2.gif) no-repeat;
+}
+.div_diagrame.indu_samerger_stinvoice_HELP_PUR_STO
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/samerger_stinvoice/portal3.gif) no-repeat;
+}
+.div_diagrame.indu_saseparate_stinvoice
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/saseparate_stinvoice/portal0.gif) no-repeat;
+}
+.div_diagrame.indu_saseparate_stinvoice_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/saseparate_stinvoice/portal1.gif) no-repeat;
+}
+.div_diagrame.indu_saseparate_stinvoice_HELP_STO_PUR
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/saseparate_stinvoice/portal2.gif) no-repeat;
+}
+.div_diagrame.indu_saseparate_stinvoice_HELP_PUR_STO
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/saseparate_stinvoice/portal3.gif) no-repeat;
+}
+.div_diagrame.indu_saseparate_stinvoice_HELP_LIB_SALE
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/saseparate_stinvoice/portal4.gif) no-repeat;
+}
+.div_diagrame.indu_saseparate_stinvoice_HELP_SALE_LIB
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/saseparate_stinvoice/portal5.gif) no-repeat;
+}
+.div_diagrame.indu_separate
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/separate/portal0.gif) no-repeat;
+}
+.div_diagrame.indu_separate_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/separate/portal1.gif) no-repeat;
+}
+.div_diagrame.indu_separate_HELP_STO_PUR
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/separate/portal2.gif) no-repeat;
+}
+.div_diagrame.indu_separate_HELP_PUR_STO
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/separate/portal3.gif) no-repeat;
+}
+.div_diagrame.indu_separate_HELP_LIB_SALE
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/separate/portal4.gif) no-repeat;
+}
+.div_diagrame.indu_separate_HELP_SALE_LIB
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/separate/portal5.gif) no-repeat;
+}
+.div_diagrame.indu_separate_merger
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/separate_merger/portal0.gif) no-repeat;
+}
+.div_diagrame.indu_separate_merger_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/separate_merger/portal1.gif) no-repeat;
+}
+.div_diagrame.indu_separate_merger_HELP_STO_PUR
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/separate_merger/portal2.gif) no-repeat;
+}
+.div_diagrame.indu_separate_merger_HELP_PUR_STO
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/separate_merger/portal3.gif) no-repeat;
+}
+.div_diagrame.indu_stmerger_sainvoice
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/stmerger_sainvoice/portal0.gif) no-repeat;
+}
+.div_diagrame.indu_stmerger_sainvoice_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/stmerger_sainvoice/portal1.gif) no-repeat;
+}
+.div_diagrame.indu_stmerger_sainvoice_Help_Lib_Sale
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/stmerger_sainvoice/portal2.gif) no-repeat;
+}
+.div_diagrame.indu_stmerger_sainvoice_Help_Sale_Lib
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/stmerger_sainvoice/portal3.gif) no-repeat;
+}
+.div_diagrame.indu_stseparate_sainvoice
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/stseparate_sainvoice/portal0.gif) no-repeat;
+}
+.div_diagrame.indu_stseparate_sainvoice_Help
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/stseparate_sainvoice/portal1.gif) no-repeat;
+}
+.div_diagrame.indu_stseparate_sainvoice_HELP_STO_PUR
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/stseparate_sainvoice/portal2.gif) no-repeat;
+}
+.div_diagrame.indu_stseparate_sainvoice_HELP_PUR_STO
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/stseparate_sainvoice/portal3.gif) no-repeat;
+}
+.div_diagrame.indu_stseparate_sainvoice_HELP_LIB_SALE
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/stseparate_sainvoice/portal4.gif) no-repeat;
+}
+.div_diagrame.indu_stseparate_sainvoice_HELP_SALE_LIB
+{
+    background: url(Image/Portal/DiagramImages/YWTPro/Industry/stseparate_sainvoice/portal5.gif) no-repeat;
+}
+.div_diagrame.cgtstd_busi
+{
+    background: url(Image/Portal/DiagramImages/CGTStd/Business/portal.gif) no-repeat;
+}
+.div_diagrame.cgtstd_indu
+{
+    background: url(Image/Portal/DiagramImages/CGTStd/Industry/portal.gif) no-repeat;
+}
+.cwtMainPageBody
+{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 525px;
+    background: url(Image/Portal/DiagramImages/CWT/CWTIndexPGUfida.png) no-repeat;
+}
+.cwtDiagrameBgDiv
+{
+    width: 100%;
+    height: 100%;
+    background: url(Image/Portal/DiagramImages/CWT/CWTIndexUfida.png) no-repeat;
+}
+.cwtDiagrameDiv
+{
+    width: 659px;
+    height: 476px;
+    background: url(Image/Portal/DiagramImages/CWT/CWTProMainPage.png) no-repeat;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.cwtDiagrameDiv > div
+{
+    position: absolute;
+    width: 60px;
+    display: block;
+    text-align: center;
+}
+.cwtDiagrameDiv > div > em
+{
+    width: 100%;
+    height: 45px;
+    display: block;
+    cursor: pointer;
+}
+.cwtDiagrameDiv > div > span
+{
+    font-family: 宋体;
+    font-size: 12px;
+}
+.cwtDiagrameDiv > div#cwtd_XJYH
+{
+    left: 10px;
+    top: 110px;
+}
+.cwtDiagrameDiv > div#cwtd_TZPZ
+{
+    left: 10px;
+    top: 233px;
+}
+.cwtDiagrameDiv > div#cwtd_CNQZ
+{
+    left: 150px;
+    top: 160px;
+}
+.cwtDiagrameDiv > div#cwtd_SHPZ
+{
+    left: 150px;
+    top: 300px;
+}
+.cwtDiagrameDiv > div#cwtd_JZhang
+{
+    left: 288px;
+    top: 230px;
+}
+.cwtDiagrameDiv > div#cwtd_WLHX
+{
+    left: 288px;
+    top: 350px;
+}
+.cwtDiagrameDiv > div#cwtd_ZDYZZ
+{
+    left: 420px;
+    top: 130px;
+}
+.cwtDiagrameDiv > div#cwtd_QJSYJZ
+{
+    left: 420px;
+    top: 230px;
+}
+.cwtDiagrameDiv > div#cwtd_HDSYJZ
+{
+    left: 420px;
+    top: 330px;
+}
+.cwtDiagrameDiv > div#cwtd_ZBCX
+{
+    left: 560px;
+    top: 130px;
+}
+.cwtDiagrameDiv > div#cwtd_JZhuan
+{
+    left: 560px;
+    top: 230px;
+}
+.cwtDiagrameDiv > div#cwtd_T-UFO
+{
+    left: 560px;
+    top: 350px;
+}
+.EWM
+{
+    display: none;
+    height: 161px;
+}
+.EWM_content
+{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 161px;
+}
+.EWM_image
+{
+    background: url(Image/Portal/android.png) no-repeat center;
+    display: block;
+    width: 100%;
+    height: 161px;
+}

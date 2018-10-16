@@ -1,0 +1,99 @@
+﻿
+
+.All
+{
+    border: 1px solid #DFDFDF;
+}
+
+
+
+A.ButtLink:link, A.ButtLink:visited, A.ButtLink:active
+{
+    border-right: #72A1BD 1px solid;
+    border-top: #72A1BD 1px solid;
+    border-bottom: #72A1BD 1px solid;
+    border-left: #72A1BD 1px solid;
+    font-size: 12px;
+    background: url(../images/bu3.jpg);
+    cursor: pointer;
+    color: #333333;
+    padding: 4px 8px 4px 7px;
+}
+
+A.ButtLink:hover
+{
+    border-right: #A2904D 1px solid;
+    border-top: #A2904D 1px solid;
+    border-bottom: #A2904D 1px solid;
+    border-left: #A2904D 1px solid;
+    font-size: 12px;
+    background: url(../images/bu4.jpg);
+    cursor: pointer;
+    color: #333333;
+    padding: 4px 8px 4px 7px;
+}
+
+.buttOut
+{
+    border-right: #72A1BD 1px solid;
+    border-top: #72A1BD 1px solid;
+    border-bottom: #72A1BD 1px solid;
+    border-left: #72A1BD 1px solid;
+    margin-top: 0px;
+    display: inline;
+    font-size: 12px;
+    background: url(../images/bu3.jpg);
+    padding-bottom: 0px;
+    cursor: pointer;
+    color: #333;
+    line-height: 18px;
+    padding-top: 0px;
+    height: 26px;
+    padding-top: 2px;
+    vertical-align: middle;
+}
+
+.buttOver
+{
+    border-right: #A2904D 1px solid;
+    border-top: #A2904D 1px solid;
+    border-bottom: #A2904D 1px solid;
+    border-left: #A2904D 1px solid;
+    margin-top: 0px;
+    display: inline;
+    font-size: 12px;
+    background: url(../images/bu4.jpg);
+    padding-bottom: 0px;
+    cursor: pointer;
+    color: #333;
+    line-height: 18px;
+    padding-top: 0px;
+    height: 26px;
+    padding-top: 2px;
+    vertical-align: middle;
+}
+
+/************************************select样式*******************************************/
+.selectBorder
+{
+    width: 103px;
+    border: #82D1E7 1px solid;
+    float: left;
+    overflow: hidden;
+}
+.selectBorder1
+{
+    width: 103px;
+    border: 1px solid #ffffff;
+    float: left;
+    overflow: hidden;
+}
+input, textarea, hr
+{
+    border: 1px #8AB3DB solid;
+    vertical-align: middle;
+}
+img
+{
+    vertical-align: middle;
+}
