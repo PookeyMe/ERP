@@ -100,7 +100,9 @@ namespace ERP.UI.pages.common
         }
         protected void Page_Load(object sender, EventArgs e)
         {
-            string power = Server.UrlDecode(Request.Cookies["user"].Values["power"]);
+            //string power = Server.UrlDecode(Request.Cookies["user"].Values["power"]);
+
+            string power = ",94,96,23,24,61,99,92,95,39,43,19,20,21,65,44,27,11,22,25,67,12,87,88,89,49,50,56,58,30,13,55,14,71,72,73,86,47,31,32,41,42,80,83,84,26,40,28,29,81,15,16,17,18,33,82,34,45,46,66,68,35,36,37,38,97,90,91,57,93,200,300,";
             Act act = new Act();
             if (1 == 1)
             {
